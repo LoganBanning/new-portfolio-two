@@ -1,0 +1,11 @@
+.top_nav_container{
+    display:flex;
+    width:60%;
+    height:auto;
+    justify-content: space-between;
+}
+.nav_label:hover{
+    cursor:pointer;
+    color:orange;
+    text-decoration: underline;
+}
