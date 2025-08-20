@@ -4,7 +4,21 @@
 .about_container{
     display:flex;
     flex-direction: column;
-    height:500px;
+    height:1000px;
     justify-content: center;
     align-items: center;
+}
+.intro_text{
+    font-size:50px;
+}
+.headshot{
+    height:400px;
+    width:auto;
+    border-radius: 10px;
+}
+.about_me_container{
+    display:flex;
+    margin-top:200px;
+    width:60%;
+    justify-content: space-evenly;
 }
