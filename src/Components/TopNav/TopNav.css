@@ -39,3 +39,9 @@ li{
     color:white;
     width:30px;
 }
+.social_links{
+    color:white;
+}
+.social_links:hover{
+    color:orange;
+}

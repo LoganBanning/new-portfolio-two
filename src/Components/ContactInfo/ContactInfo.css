@@ -1,0 +1,27 @@
+.contact_info_container{
+    margin-top:100px;
+    height:500px;
+    width:auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.contact_text_container{
+    display:flex;
+    flex-direction: column;
+    width:300px;
+    height:auto;
+    margin-top:75px;
+}
+.contact_link{
+    text-decoration: none;
+    color:white;
+}
+.contact_link:hover{
+    color:orange;
+}
+.hiking_picture{
+    height:400px;
+    width:auto;
+    border-radius: 20px;
+}
