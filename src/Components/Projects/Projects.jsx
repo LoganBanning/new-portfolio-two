@@ -1,35 +1,37 @@
 import './Projects.css';
-import React from 'react'
+import InfiniteScroll from '../../assets/Images/infinite_scroll.jpg'
+import MonsterRolodex from '../../assets/Images/monsters_rolodex.jpg'
+import PictureInPicture from '../../assets/Images/picture_in_picture.jpg'
+import StudentInfoPage from '../../assets/Images/student_info_page.jpg'
 
 const Projects = () => {
 
     const PortfolioListContent = [
     {
-        image: 'image-3',
+        image: <img src={MonsterRolodex} />,
         category: 'Project',
         title: 'Monster Rolodex',
         url: 'https://delightful-palmier-b62036.netlify.app/'
     },
     {
-        image: 'image-2',
+        image: <img src={StudentInfoPage} />,
         category: 'Project',
         title: 'Student info page',
         url: 'https://cerulean-chimera-c6adbf.netlify.app/'
     },
     {
-        image: 'image-4',
+        image: <img src={PictureInPicture} />,
         category: 'Project',
         title: 'Picture In Picture',
         url: 'https://loganbanning.github.io/picture-in-picture/'
     },
     {
-        image: 'image-5',
+        image: <img src={InfiniteScroll} />,
         category: 'Project',
         title: 'Infinite Scroll',
         url: 'https://loganbanning.github.io/infinite-scroll-project/'
     }]
-    // const {column , stylevariation } = this.props;
-    // const list = PortfolioListContent.slice(0 , this.props.item);
+
     return (
         <>
             <h2>Projects</h2>

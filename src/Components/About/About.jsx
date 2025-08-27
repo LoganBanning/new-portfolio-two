@@ -29,7 +29,7 @@ const About = () => {
                     </p>
                     <h2 className="about_text">Education</h2>
                     <p>I attended Utah State Universisty from 2010-2012 and received an Associates of Science.</p>
-                    <p>I started coding in 2019 and did a coding bootcamp in 2020 where I received a certification of completion for a fullstack course through DevMountain in Lehi, Utah where I studied React, Node.js, PostgresSQL, HTML, CSS and JavaScript.</p>
+                    <p>I started coding in 2019 and did a coding bootcamp in 2021 where I received a certification of completion for a fullstack course through DevMountain in Lehi, Utah where I studied React, Node.js, PostgresSQL, HTML, CSS and JavaScript.</p>
                 </div>
             </div>
         </div>
