@@ -3,6 +3,7 @@ import TopNav from "./Components/TopNav/TopNav";
 import './App.css';
 import About from "./Components/About/About";
 import Projects from './Components/Projects/Projects';
+import ContactInfo from './Components/ContactInfo/ContactInfo';
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
       <TopNav />
       <About />
       <Projects />
+      <ContactInfo />
     </>
   )
 }
