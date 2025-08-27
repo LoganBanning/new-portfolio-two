@@ -17,12 +17,13 @@
 .headshot{
     height:400px;
     width:auto;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .about_me_container{
     display:flex;
     margin-top:200px;
     width:80%;
+    height:auto;
     justify-content: space-evenly;
 }
 .work_info{

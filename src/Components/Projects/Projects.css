@@ -3,7 +3,8 @@
 }
 .project_picture{
     height:300px;
-    width:auto;
+    width:350px;
+    border-radius: 20px;
 }
 .projects_container{
     display:flex;
