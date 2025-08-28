@@ -3,6 +3,7 @@ import InfiniteScroll from './ProjectImages/infinite_scroll.jpg'
 import MonsterRolodex from './ProjectImages/monsters_rolodex.jpg'
 import PictureInPicture from './ProjectImages/picture_in_picture.jpg'
 import StudentInfoPage from './ProjectImages/student_info_page.jpg'
+import VivintSmartHome from './ProjectImages/vivint_picture.jpg'
 
 const Projects = () => {
 
@@ -30,6 +31,12 @@ const Projects = () => {
         category: 'Project',
         title: 'Infinite Scroll',
         url: 'https://loganbanning.github.io/infinite-scroll-project/'
+    },
+    {
+        imgae: VivintSmartHome,
+        category: 'Project',
+        title: 'Vivint Smart Home Clone',
+        url: 'https://vivintclone.netlify.app/'
     }]
 
     return (
