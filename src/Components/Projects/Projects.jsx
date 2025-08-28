@@ -1,9 +1,10 @@
 import './Projects.css'
 import InfiniteScroll from './ProjectImages/infinite_scroll.jpg'
 import MonsterRolodex from './ProjectImages/monsters_rolodex.jpg'
-import PictureInPicture from './ProjectImages/picture_in_picture.jpg'
 import StudentInfoPage from './ProjectImages/student_info_page.jpg'
-import VivintSmartHome from './ProjectImages/vivint_picture.jpg'
+import VivintSmartHome from './ProjectImages/vivint_smart_home.jpg'
+import CrownClothing from './ProjectImages/crown_clothing.png'
+import QuoteGenerator from './ProjectImages/quote_generator.png'
 
 const Projects = () => {
 
@@ -21,10 +22,10 @@ const Projects = () => {
         url: 'https://cerulean-chimera-c6adbf.netlify.app/'
     },
     {
-        image: PictureInPicture,
+        image: CrownClothing,
         category: 'Project',
-        title: 'Picture In Picture',
-        url: 'https://loganbanning.github.io/picture-in-picture/' 
+        title: 'Crown Clothing',
+        url: 'https://dancing-sunshine-604740.netlify.app/' 
     },
     {
         image: InfiniteScroll,
@@ -33,10 +34,16 @@ const Projects = () => {
         url: 'https://loganbanning.github.io/infinite-scroll-project/'
     },
     {
-        imgae: VivintSmartHome,
+        image: VivintSmartHome,
         category: 'Project',
         title: 'Vivint Smart Home Clone',
         url: 'https://vivintclone.netlify.app/'
+    },
+    {
+        image: QuoteGenerator,
+        category: 'Project',
+        title: 'Quote Generator',
+        url: 'https://astonishing-concha-8499bb.netlify.app/'
     }]
 
     return (
